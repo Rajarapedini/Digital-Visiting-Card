@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: arial;
+    box-sizing: border-box;
+
+}
+.card-container{
+    width: 300px;
+    height: 500px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.upper-container{
+    height: 150px;
+    background: #7f00ff;
+    
+}
+.image-container{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    transform: translate(100px, 100px);
+
+}
+.image-container:hover{
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    transform: translate(100px, 100px);
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
+.image-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.lower-container{
+    height: 280px;
+    background: #fff;
+    padding: 30px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.lower-container h3, h4{
+    box-sizing: border-box;
+    line-height: 0.6;
+    font-weight: lighter;
+
+}
+.lower-container h4{
+    color: #7f00ff;
+    opacity: 10;
+font-weight: bold;
+
+}
+.lower-container p{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 35px;
+
+}
+.lower-container .btn{
+    padding: 12px 20px;
+    background: #7f00ff;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+
+}
+.lower-container .btn:hover{
+    background: transparent;
+    color: #7f00ff;
+    border: 2px solid #7f00ff;
+}
+
+.social .social-icons{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    font-size: large;
+    align-items: center;
+    height: 23px;    
+
+  }
+  .social-icons .linkedin:hover{
+    font-size: larger;
+    color: red;
+  }
+  .social-icons .github:hover{
+    font-size: larger;
+    color: red;
+  }
+  .social-icons .twitter:hover{
+    font-size: larger;
+    color: red;
+  }
+  .social-icons .telegram:hover{
+    font-size: larger;
+    color: red;
+  }
+  .social-icons .instagram:hover{
+    color: red;
+    font-size: larger;
+  }
